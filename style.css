@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+header i{
+    font-size: 30px;
+    color: #000;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header.rolagem{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(images/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.banner h1{
+    font-size: 60px;
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 400px;
+}
+
+.banner h1 span{
+    color: #53b8c5;
+}
+
+.btn-contato:hover{
+    transform: scale(1.3);
+    transition: .4s;
+}
+
+header li:hover{
+    transform: scale(1.3);
+    transition: .4s;
+    color: #fff;
+}
+
+.btn-contato button{
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    background-color: #53b8c5;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+main{
+    background-image: url(images/fundopagina.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
